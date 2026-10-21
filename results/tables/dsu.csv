@@ -1,0 +1,17 @@
+n,variant,path_steps,avg_ms
+10,naive,90,0.0262
+10,path compression,18,0.0068
+10,union by rank,17,0.0023
+10,both,17,0.0019
+100,naive,9900,0.0625
+100,path compression,198,0.0151
+100,union by rank,197,0.0145
+100,both,197,0.0154
+1000,naive,999000,2.2994
+1000,path compression,1998,0.1143
+1000,union by rank,1997,0.1245
+1000,both,1997,0.1151
+10000,naive,99990000,192.4741
+10000,path compression,19998,0.1506
+10000,union by rank,19997,0.1342
+10000,both,19997,0.1478
